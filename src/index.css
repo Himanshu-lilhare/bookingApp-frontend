@@ -1,15 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html{
-  font-size: 10px;
-}
-
 
 body{
-  padding:0.8rem
+  padding: 0rem 0.8rem 0rem 0.8rem
 }
-
-

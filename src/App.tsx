@@ -1,10 +1,12 @@
-import React from 'react'
-import './App.scss'
+
+import './App.css'
 import { BrowserRouter , Routes , Route} from 'react-router-dom'
+
+import Navbar from './components/layout/Navbar'
+import Home from './pages/Home'
 import Explore from './pages/Explore'
 import Profile from './pages/Profile'
-import Navbar from './layout/navbar/Navbar'
-import Home from './pages/Home'
+
 
 const App = () => {
 
